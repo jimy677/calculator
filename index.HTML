@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main-container"> <!--the frame of the calculator-->
+            <!--the diplay-->
+        <div id="calculator">
+       <h3>MATHEMATICAL CALCULATOR</h3>
+            <input type="text" id="display" readonly>
+        <!--the body of the calculator-->
+            <div id="button">
+                <div class="box-one">
+                    <button id="ac">AC</button><button id="clear" class="output">C</button><button class="operator">/</button><button class="operator">*</button>
+                </div>
+                <div class="box">
+                    <button class="output">7</button><button class="output">8</button><button class="output">9</button><button class="operator">-</button>
+                </div>
+                <div class="box">
+                    <button class="output">4</button><button class="output">5</button><button class="output">6</button><button class="operator">+</button>
+                </div>
+                <div class="box">
+                    <button class="output">1</button><button class="output">2</button><button class="output">3</button>
+                </div>
+                <div class="box-two">
+                    <button class="output grow">0</button><button class="output">.</button><button class="function" id="equals">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
