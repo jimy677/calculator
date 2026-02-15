@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+#calculator{
+    border: 2px solid black;
+    height: 500px;
+    width: 270px;
+    background-color: gold;
+}
+H3{
+    text-align: center;
+}
+
+input{
+    height: 80px;
+    margin-left: 10px;
+    width: 250px;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    background-color: chocolate;
+}
+
+.box-one{
+    margin-top: 20px;
+}
